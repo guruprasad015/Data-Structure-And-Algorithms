@@ -1,5 +1,22 @@
 package com.guru;
 
+/*
+The Hamming distance between two integers is the number of positions at which the corresponding bits are different. 
+Given two integers x and y , calculate the Hamming distance.
+
+STEP 1
+Compare the first two bits in each string. If they are the same, record a "0" for that bit. 
+If they are different, record a "1" for that bit. In this case, the first bit of both strings is "1," so record a "0" for the first bit.
+
+STEP 2
+Compare each bit in succession and record either "1" or "0" as appropriate. 
+String 1: "1001 0010 1101" String 2: "1010 0010 0010" Record: "0011 0000 1111"
+
+STEP 3
+Add all the ones and zeros in the record together to obtain the Hamming distance. 
+Hamming distance = 0+0+1+1+0+0+0+0+1+1+1+1 = 6
+*/
+
 public class HammingDistance {
 
 	public static void main(String[] args) {
