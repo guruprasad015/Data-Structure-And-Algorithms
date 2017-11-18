@@ -1,4 +1,4 @@
-package com.guru;
+package com.guru.Strings;
 
 public class StringReverse {
 	

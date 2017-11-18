@@ -1,4 +1,4 @@
-package com.guru.basic;
+package com.guru.primitiveTypeQuestions;
 
 public class ReverseNumber {
 	

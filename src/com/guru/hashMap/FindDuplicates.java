@@ -1,4 +1,4 @@
-package com.guru;
+package com.guru.hashMap;
 import java.util.HashMap;
 import java.util.Map;
 
